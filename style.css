@@ -6,14 +6,18 @@
 
 .container {
     background-color: rgba(0, 0, 0, 0.671);
-    height: 100%;
-    width: 100%;
 }
 
 body {
     background-image: url('assets/pexels-pixabay-531756.jpg');
     background-size: cover;
     background-repeat: no-repeat;  
+    font-size: 16px;
+    color: white;
+}
+
+main {
+    margin-top: 30px;
 }
 
 section {
@@ -22,29 +26,32 @@ section {
     border-radius: 10px;
     border: 1px solid rgba(192, 193, 231, 0.137);
     height: 400px;
+    margin-bottom: 20px;
 }
 
 header {
     height: 100px;
-    border: 1px solid green;
 }
 
-main {
-    margin-top: 30px;
+.weather-display {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    height: 900px;
     padding: 20px;
-    border: 1px solid blue;
+    margin-top: 20px;
 }
 
-footer {
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+/* footer {
     height: 200px;
     margin-top: 60px;
     border: 1px solid white;
-}
+} */
 
 .w {
     text-shadow: 2px 2px;
@@ -53,7 +60,7 @@ footer {
 .weather {
     color: white;
     font-weight: bolder;
-    font-size: 24px;
+    font-size: 40px;
 }
 
 #search {
@@ -69,5 +76,9 @@ nav {
 }
 
 header {
-    padding: 40px 60px;
+    padding: 20px 60px;
+}
+
+img {
+    width: 100px;
 }
