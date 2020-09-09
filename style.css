@@ -47,11 +47,6 @@ h1 {
     padding: 20px;
 }
 
-/* footer {
-    height: 200px;
-    margin-top: 60px;
-    border: 1px solid white;
-} */
 
 .w {
     text-shadow: 2px 2px;
@@ -61,6 +56,7 @@ h1 {
     color: white;
     font-weight: bolder;
     font-size: 40px;
+    text-align: center;
 }
 
 #search {
@@ -70,9 +66,8 @@ h1 {
     border: 1px solid black;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
+.search {
+    text-align: center;
 }
 
 header {
